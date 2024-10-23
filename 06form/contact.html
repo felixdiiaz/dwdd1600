@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <meta name="description" content="Learn about the many benefits of the ketogenic diet."/>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Spartan:wght@300&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+        
+        <meta charset="UTF-8">
+        <title>Contact Page</title>
+
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <h1>Contact Me </h1>
+        <p>Felix Diaz</p>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="runway.html">Runway</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Get in Touch with Me</h1>
+    <form method="get" class="myform" action="contact.html">
+        <fieldset>
+                <legend>Your Information</legend>
+        <label>First Name*:<input type="text" name="first_name" required></label>
+        <label>Last Name*:<input type="text" name="last_name" required></label>
+     <label>Email*:<input type="tel" name="email" placeholder="@gmail.com"></label>
+    <label>Cell Number:<input type="tel" name="phone" placeholder="801-555-1212"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Delivery Options</legend>
+            <label><input type="checkbox" name="porch" value="porch">Print</label>
+            <label><input type="checkbox" name="deck" value="deck">Runway</label>
+            <label><input type="checkbox" name="driveway" value="driveway">Film</label>
+            <label><input type="checkbox" name="garage" value="garage">Not Specified</label>
+        <br><br>
+        <label>Preferred Response Method</label>
+        <select> name="time"
+        <option value="none">Please Select</option>
+        <option value="Email">Email</option>
+        <option value="Text">Text</option>
+        <option value="Phone Call">Phone Call</option>
+        </select>
+
+        </fieldset>
+        <label>Comments
+            <textarea name="comments"></textarea>
+        </label>
+        <input type="submit" value="Send Delivery Request">
+        </form>
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2024 &bull; Felix Diaz &bull; <a href="felixlanderosd@gmail.com">Email Me</a> </p>
+    </footer>
+</body>
+</html>

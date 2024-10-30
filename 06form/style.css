@@ -168,12 +168,12 @@ body {
 
     /* form stuff here */
 .myform fieldset {
-    border: #43a0b6 solid 1px;
+    border: #6daef4 solid 1px;
     border-radius: 3px; 
     margin-bottom: .8rem;
 }
 .myform legend {
-    color: #43a0b6;
+    color: #6daef4;
     font-size: .8rem;
 }
 .myform label {

@@ -197,7 +197,8 @@ body {
 
     }
     .myform required {
-        color: #e7f4f7;
+        color: #6daef4;
+        text-color: #white;
     }
 
     .myform [type=submit] { 

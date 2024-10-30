@@ -168,7 +168,7 @@ body {
 
     /* form stuff here */
 .myform fieldset {
-    border: #43a0b6 solid 1px;
+    border: #6daef4 solid 1px;
     border-radius: 3px; 
     margin-bottom: .8rem;
 }
@@ -198,12 +198,11 @@ body {
 
     }
     .myform required {
-        color: #6daef4;
-        text-color: #white;
+        color: #bfd6db;
     }
 
     .myform [type=submit] { 
-        background-color: #43a0b6;
+        background-color: #6daef4;
         border: none;
         padding: 1rem 2rem;
         border-radius:.3rem;

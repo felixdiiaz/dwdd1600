@@ -105,7 +105,7 @@ main a {
 
 }
 
-.myform :required { background-color:#dcf9ff
+.myform :required { background-color:#dcf9ff;
     }
 
 .myform label,  .myform select, .myform select, .myform [type=text], .myform [type=tel], .myform textarea

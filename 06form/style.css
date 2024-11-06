@@ -197,7 +197,7 @@ body {
         height:6rem;
 
     }
-    .myform required {
+    .myform :required {
         background-color: #bfd6db;
     }
 

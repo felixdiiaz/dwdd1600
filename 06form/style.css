@@ -53,6 +53,62 @@ body {
     nav a:hover {
         color:white;
     }
+@media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+    }
+    nav a {
+        display:block;
+        padding:.8rem;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: capitalize;
+        text-align: center;
+        border-bottom: solid 1px #e7f4f7;
+        color: #8C501B;
+
+    }
+    nav .active a{
+        background-color: #43a0b6;
+        color: white;
+        
+    }
+}
+
+@media only screen and (min-width: 601px) {
+
+    nav {
+        border-top: solid 1px #e7f4f7;
+        
+    }
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+        display: flex;
+    }
+    nav a {
+        display: block;
+        padding: 1.2rem 1rem .3rem 1rem;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #43a0b6;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid 2px #fff;
+    }
+    
+    nav .active a {
+        border-bottom: solid 2px #43a0b6;
+    }
+    nav a:hover {
+        color: #000;
+    }
+}
+
 
     /* Main Section. */
     main { 

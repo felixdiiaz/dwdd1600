@@ -41,15 +41,15 @@ body {
             text-transform: capitalize;
             text-align: center;
             border-bottom: solid 1px #aaaaaa;
-            color: #8C501B;
+            color: #6daef4;
     
         }
         nav .active a{
-            background-color: #8C501B;
+            background-color: #6daef4;
             color: white;
             
         }
-                    nav a:hover {
+         nav a:hover {
             color: #000;
         }
     }
@@ -57,7 +57,7 @@ body {
     @media only screen and (min-width: 601px) {
     
         nav {
-            border-top: solid 1px #E0E6E6;
+            border-top: solid 1px #e7f4f7;
             
         }
         nav ul {
@@ -71,7 +71,7 @@ body {
             padding: 1.2rem 1rem .3rem 1rem;
             font-size: 1rem;
             text-decoration: none;
-            color: #024873;
+            color: #6daef4;
             font-weight: 600;
             text-transform: uppercase;
             text-align: center;
@@ -79,7 +79,7 @@ body {
         }
         
         nav .active a {
-            border-bottom: solid 2px #024873;
+            border-bottom: solid 2px #6daef4;
         }
         nav a:hover {
             color: #000;

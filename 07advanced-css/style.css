@@ -82,7 +82,7 @@ body {
             color: #000;
         }
     }
-    
+    /* Block This 
     nav {
         background-color: #6daef4;
     }
@@ -110,7 +110,7 @@ body {
     nav a:hover {
         color:white;
     }
-
+   End of Block */ 
     /* Main Section. */
     main { 
     padding: 1rem 2vw;
